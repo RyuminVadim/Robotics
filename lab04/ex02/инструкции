@@ -1,0 +1,7 @@
+ros2 launch learning_tf2_py turtle_tf2_dynamic_frame_demo.launch.py
+
+ros2 run turtlesim turtle_teleop_key
+
+
+ros2 run rviz2 rviz2 -d $(ros2 pkg prefix --share turtle_tf2_py)/rviz/turtle_rviz.rviz
+
